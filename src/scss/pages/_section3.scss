@@ -108,16 +108,23 @@
     .description {
       display: flex;
       width: 20%;
+      color:#f6f5ef;
+      font-family: 'DM Sans';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.18;
+      letter-spacing: 0.42px;
 
       .stats {
         display: flex;
         // justify-content: center;
-        // align-items: center;
+        align-items: center;
         gap: 100%;
         max-width: 100%;
 
         &__type {
           max-width: 100%;
+          text-transform: uppercase;
         }
 
         &__characteristics {
